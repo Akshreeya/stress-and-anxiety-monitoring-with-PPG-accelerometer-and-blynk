@@ -1,0 +1,19 @@
+# Arduino / PlatformIO / build artifacts
+*.bin
+*.elf
+*.hex
+build/
+libdeps/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & data
+secrets.h
+data/
+models/
+*.log
+
+# images or large files (if using git lfs, mention here)
+*.psd
